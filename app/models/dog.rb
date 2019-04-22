@@ -5,7 +5,7 @@ class Dog
 
   def initialize(name,breed,age)
     @name, @breed, @age = name,breed,age
-    all << self
+    @@all << self
   end
   # def initialize(attributes)
   #   attributes.each{|key,value| self.send("#{key}=",value)}
